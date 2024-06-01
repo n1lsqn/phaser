@@ -1,8 +1,8 @@
-import { DialogBox, DialogBoxConfig } from '../class/DialogBox';  // 追加
+import { DialogBox, DialogBoxConfig } from "../../class/DialogBox";
 
 export class MainScene extends Phaser.Scene {
   constructor() {
-    super('main');
+    super('mainScene');
   }
 
   create() {
